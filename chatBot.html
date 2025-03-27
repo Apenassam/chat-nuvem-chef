@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ChatBot de Receitas</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+  <div class="container">
+    <div class="chat-header">
+      <img src="logo.png" alt="Logo ChatBot" class="logo">
+    </div>
+    <div class="chat-container">
+      <div class="chat-messages">
+        <div class="message bot-message">
+          <img src="logo.png" alt="Bot" class="bot-logo">
+          <p>Bem-vindo ao Chatbot de Receitas! Por favor, me diga quais ingredientes você tem disponíveis?</p>
+        </div>
+      </div>
+      <div class="chat-input">
+        <input type="text" id="ingredients-input" placeholder="Digite os ingredientes separados por vírgula...">
+        <button id="submit-button">Enviar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
